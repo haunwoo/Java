@@ -69,8 +69,6 @@ class PcRoom {
 		int choice;
 		while (true) {
 			try{
-				
-			
 				MenuViewer.menuViewer();
 				choice = MenuViewer.keyboard.nextInt();
 				MenuViewer.keyboard.nextLine(); //정수를 입력받고 엔터를 버리기위함
